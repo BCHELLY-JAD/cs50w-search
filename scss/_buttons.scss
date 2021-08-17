@@ -1,0 +1,50 @@
+
+ 
+
+
+.btn { 
+    padding-top: 22px;
+    display: flex;
+    justify-content: center;
+    }
+    
+    
+     
+     .btn input[type="submit"]{ 
+    
+       padding: 0px 16px;
+       border:1px;
+       margin:11px 4px;
+       height: 34px;
+       text-align: center;
+       width: 160px;
+       background-color: rgba(238, 238, 238, 1);
+       color: rgba(115, 119, 130, 1);
+       font-size: 16px;
+       font-weight: 400;
+       
+    }
+    
+
+   .btn input[type="submit"]:hover{ 
+      color:rgba(32, 33, 36, 1);
+      border: 0.5px ridge rgba(115, 119, 130, 1);
+    }
+    
+  .sbt{
+    @extend .btn;
+  }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

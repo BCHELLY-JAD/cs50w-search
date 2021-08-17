@@ -1,0 +1,199 @@
+header {
+  width: 100%;
+  height: 64px;
+  background-color: transparent;
+}
+
+#header_buttons {
+  float: right;
+  width: 300px;
+  height: 64px;
+}
+
+#header_buttons {
+  padding: 17px 0px 17px 20px;
+}
+
+#header_buttons .b1, #header_buttons .b2 {
+  width: 33.04px;
+  line-height: 24px;
+  padding-left: 30px;
+}
+
+#header_buttons .b2 {
+  width: 41.25px;
+}
+
+#header_buttons a {
+  font-size: 16px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 400;
+}
+
+#header_buttons a:hover {
+  text-decoration: underline;
+  color: #737782;
+}
+
+#inpt {
+  position: absolute;
+  margin-top: 100px;
+}
+
+.text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 30px;
+}
+
+.text input[type="text"] {
+  z-index: 1000;
+  padding-left: 50px;
+  font-size: 17px;
+  width: 561px;
+  height: 50px;
+  border-radius: 22px;
+  outline: none;
+  background: none;
+  border: 2px solid #eeeeee;
+}
+
+.text input[type="text"]:hover {
+  -webkit-box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.78);
+          box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.78);
+}
+
+.text input[type="text"]::-webkit-input-placeholder {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.text input[type="text"]:-ms-input-placeholder {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.text input[type="text"]::-ms-input-placeholder {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.text input[type="text"]::placeholder {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.fas {
+  position: absolute;
+  top: 48px;
+  left: 33%;
+  color: #aaa;
+}
+
+.audio {
+  position: absolute;
+  width: 15px;
+  top: 45px;
+  left: 65.5%;
+  cursor: pointer;
+}
+
+.btn, .sbt {
+  padding-top: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn input[type="submit"], .sbt input[type="submit"] {
+  padding: 0px 16px;
+  border: 1px;
+  margin: 11px 4px;
+  height: 34px;
+  text-align: center;
+  width: 160px;
+  background-color: #eeeeee;
+  color: #737782;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.btn input[type="submit"]:hover, .sbt input[type="submit"]:hover {
+  color: #202124;
+  border: 0.5px ridge #737782;
+}
+
+.header {
+  height: 65px;
+  background-color: #eeeeee;
+}
+
+.adv {
+  color: #d93025;
+  margin: 25px 35px;
+  font-size: 20px;
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 30px;
+}
+
+#top {
+  font-size: 18px;
+  margin: 40px;
+}
+
+.container {
+  margin: 10px 5px 20px 40px;
+}
+
+.container label {
+  width: 210px;
+  display: inline-block;
+}
+
+#text {
+  font-size: 16px;
+}
+
+.text_input {
+  width: 40%;
+  min-height: 30px;
+  text-align: left;
+  text-indent: 10px;
+}
+
+input[value="Advanced Search"] {
+  width: 140px;
+  background-color: #4d90fe;
+  color: #fff;
+  outline: none;
+  border: 1px solid #3079ed;
+  height: 35px;
+  font-weight: bold;
+  margin-left: 47.5%;
+}
+
+* {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Segoe UI', 'Roboto', arial;
+}
+
+#logo {
+  background-repeat: no-repeat;
+  padding-top: 7%;
+  height: 92px;
+  left: calc(50% - 272px/2);
+  position: relative;
+  width: 272px;
+}
